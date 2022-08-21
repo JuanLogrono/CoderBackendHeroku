@@ -52,7 +52,7 @@ const getInfo=(req,res)=>{
         carpeta_del_proyecto:title,
         CPUS:cpus().length
     }
-    res.send(informacion)
+    res.render('info.hbs',{informacion,memoria:JSON.stringify(informacion.memoria)})
 }
 
 const randomFork=(req,res)=>{

@@ -60,3 +60,15 @@ body{
   .regUser{
     color: red;
   }
+
+  .info_lista-style{
+    border: solid black 3px;
+    background-color: rgb(201, 201, 163);
+    width: max-content;
+  }
+  .info_lista-style>li{
+    border: solid black 1.5px;
+    color:rgb(36, 35, 35);
+    font-size: 1.3em;
+    list-style: square inside ;
+  }
